@@ -13,6 +13,7 @@ import MLDivider from './ml-divider'
 import * as MLIcon from './ml-icon'
 import MLInputNumber from './ml-input-number'
 import MLLayout from './ml-layout'
+import MLList from './ml-list'
 import MLMention from './ml-mention'
 import MLPageHeader from './ml-page-header'
 import MLPopconfirm from './ml-popconfirm'
@@ -40,6 +41,7 @@ export {
   MLIcon,
   MLInputNumber,
   MLLayout,
+  MLList,
   MLMention,
   MLPageHeader,
   MLPopconfirm,
