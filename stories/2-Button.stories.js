@@ -5,10 +5,12 @@ import { MLButton } from 'marklogic-ui-library'
 
 export default {
   title: 'MLButton',
+  component: MLButton,
   decorators: [withKnobs],
   parameters: {
-    info: {
-      text: 'Component description goes here',
+    componentSubtitle: 'subtitle',
+    docs: {
+
     },
   },
 }
@@ -23,5 +25,13 @@ export const multiple = () => (
     <MLButton type='danger' onClick={action('danger clicked')}>{text('Danger Button Text', 'Danger')}</MLButton>
   </div>
 )
+
+multiple.story = {
+  parameters: {
+    docs: {
+      storyDescription: 'Description of  multiple.',
+    },
+  },
+}
 
 export const disabled = () => <MLButton disabled onClick={action('clicked')}>{text('Disabled', 'Disabled')}</MLButton>

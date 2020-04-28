@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import { Button } from 'antd'
 import './ml-button.less'
 
+/**
+ * A simple button.
+ */
 const MLButton = (props) => {
   let type
   let className
