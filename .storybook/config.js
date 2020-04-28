@@ -4,14 +4,6 @@ import { withInfo } from '@storybook/addon-info';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import './style.css';
 
-addDecorator(
-  withInfo({
-    inline: true,
-    header: true,
-    source: true
-  })
-);
-
 addParameters({
   options: {
     /**
