@@ -1,4 +1,4 @@
-import { configure, addDecorator, addParameters } from '@storybook/react';
+import { addDecorator, addParameters } from '@storybook/react';
 import { create } from '@storybook/theming/create';
 import { withInfo } from '@storybook/addon-info';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
@@ -118,6 +118,3 @@ export default create({
   brandUrl: 'https://example.com',
   brandImage: 'https://placehold.it/350x150',
 });
-
-// automatically import all files ending in *.stories.js
-configure(require.context('../stories', true, /\.stories\.js$/), module);
