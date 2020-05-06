@@ -4,11 +4,11 @@ import { withKnobs, text } from '@storybook/addon-knobs/react'
 import { MLButton } from 'marklogic-ui-library'
 
 export default {
-  title: 'MLButton',
+  title: 'General/MLButton',
   component: MLButton,
   decorators: [withKnobs],
   parameters: {
-    componentSubtitle: 'subtitle',
+    componentSubtitle: 'Subtitle specified in story file.',
     docs: {
 
     },
@@ -16,6 +16,15 @@ export default {
 }
 
 export const basic = () => <MLButton type='primary' onClick={action('clicked')}>{text('Primary Button Text', 'Primary')}</MLButton>
+
+basic.story = {
+  parameters: {
+    docs: {
+      storyDescription: 'Description of this individual story, from the' +
+        '`.stories.js` file',
+    },
+  },
+}
 
 export const multiple = () => (
   <div>
@@ -29,7 +38,7 @@ export const multiple = () => (
 multiple.story = {
   parameters: {
     docs: {
-      storyDescription: 'Description of  multiple.',
+      storyDescription: 'Description for multiple buttons story.',
     },
   },
 }

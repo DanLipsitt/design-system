@@ -4,7 +4,7 @@ import { Button } from 'antd'
 import './ml-button.less'
 
 /**
- * A simple button.
+ * Component description from [JSDoc](https://jsdoc.app/about-getting-started.html) code comments. Can use **Markdown** here.
  */
 const MLButton = (props) => {
   let type
