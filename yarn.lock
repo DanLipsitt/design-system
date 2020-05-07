@@ -3121,6 +3121,13 @@ ansi-to-html@^0.6.11:
   dependencies:
     entities "^1.1.2"
 
+ant-design-draggable-modal@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/ant-design-draggable-modal/-/ant-design-draggable-modal-0.0.16.tgz#e7bdcaa3cab2e44fdae69a554432bf5365feb86b"
+  integrity sha512-cWqK+DpiJKgjkdifAqw14m8+BH/3UQAm+hwIu3Gfcf+QndPciSZ77c6+UmCkZ8+H9vEJ6x6oyXVVwDqpkPRTXw==
+  dependencies:
+    react-uid "^2.2.0"
+
 antd@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/antd/-/antd-4.0.4.tgz#fe7bf58151e069226941a4febe429f1e2f6c596f"
@@ -12681,6 +12688,11 @@ react-transition-group@^2.2.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-uid@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-uid/-/react-uid-2.2.0.tgz#0f77e1e0594fbf29fc4fe528cc9aa415c5bf9159"
+  integrity sha512-z+g5+hFOQ08hCfrGcJ1PNs+cmvH8Uq2CVzCmPeWBsUi5A4W4NWXR5jouledzy3oSKGMU9HOzf8zFuGi15TXJoQ==
 
 react@^16.8.3, react@^16.8.6:
   version "16.13.0"
