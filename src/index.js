@@ -14,6 +14,7 @@ import * as MLIcon from './ml-icon'
 import MLInputNumber from './ml-input-number'
 import MLLayout from './ml-layout'
 import MLMention from './ml-mention'
+import MLModal from './ml-modal'
 import MLPageHeader from './ml-page-header'
 import MLPopconfirm from './ml-popconfirm'
 import MLRadio from './ml-radio'
@@ -42,6 +43,7 @@ export {
   MLInputNumber,
   MLLayout,
   MLMention,
+  MLModal,
   MLPageHeader,
   MLPopconfirm,
   MLRadio,
